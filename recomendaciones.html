@@ -1,0 +1,107 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOREFLEX</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            display: flex;
+            
+            align-items: center;
+            background-color: #6b1b1bfc;
+            color: rgb(20, 2, 2);
+            padding: 20px;
+            font-size: 24px;
+        }
+        nav {
+            background-color: #6c74e2;
+            padding: 10px;
+        }
+        nav a {
+            color: rgb(58, 57, 57);
+            text-decoration: none;
+            margin: 15px;
+            font-size: 18px;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+        .content {
+            background: rgb(63, 80, 137);
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            margin-right: 20px;
+            width: 50%;
+        }
+        .sidebar {
+            background: #b9d0f0;
+            padding: 20px;
+            width: 25%;
+        }
+        footer {
+            background-color: #7c2828;
+            color: rgb(194, 124, 124);
+            padding: 10px;
+          
+            width: 100%;
+            bottom: 0;
+        }
+        .logo {
+            height: 80px;
+            margin-right: 15px;
+        }
+        .header-left {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/ith.png" class="logo">
+        <h1><i>LA SHOREFLEX</i></h1>
+    </header>
+    <nav>
+        <a href="index.html">INICIO</a>
+        <a href="animeinfo.html" title="ir a...">ANIME INFO</a>
+        <a href="shonen y gore.html"title="ir a...">SHONEN Y GORE</a>
+        <a href=""title="ir a...">RECOMENDACIONES</a>
+    </nav>
+    <div class="container">
+        <div class="content">
+            <form action="" method="get"> 
+                <p>Nombre: <input type="text" name="name_control" autofocus required /></p> 
+                <p>Correo electrónico: <input type="email" name="email_control" required /></p> 
+                <p>URL: <input type="url" name="url_control" placeholder="Escribe la URL de tu página web 
+                personal" /></p> 
+                <p>Fecha: <input type="date" name="date_control" /></p> 
+                <p>Tiempo: <input type="time" name="time_control" /></p> 
+                <p>Fecha y hora: <input type="datetime" name="datetime_control" /> 
+                </p> 
+                <p>Mes: <input type="month" name="month_control" /></p> 
+                <p>Semana: <input type="week" name="week_control" /></p> 
+                <p>Número (min -10, max 10): <input type="number" name="number_control" min="-10" max="10" 
+                value="0" /></p> 
+                <p>Teléfono: <input type="tel" name="tel_control"></p> 
+                <p>Término de búsqueda: <input type="search" name="search_control" /></p> 
+                <p>Color favorito: <input type="color" name="color_control" /></p> 
+                <p><input type="submit" value="Enviar" /></p> 
+                </form> 
+    </div>
+
+
+    </div>
+    </div>
+    <footer>
+        &copy; III BTP ROBÓTICA 9 SHOREFLEX DERECHOS RESEVADOS 2025.
+    </footer> 
+</body>
+</html>
